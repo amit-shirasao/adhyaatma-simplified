@@ -7,10 +7,6 @@ const routes: Routes = [
     redirectTo: 'ganapati-aarti',
     pathMatch: 'full'
   },
-  // {
-  //   path: ':pageId',
-  //   loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  // },
   {
     path: 'ganapati-aarti',
     loadChildren: () => import('./pages/ganapati-aarti/ganapati-aarti.module').then( m => m.GanapatiAartiPageModule)
@@ -52,6 +48,18 @@ const routes: Routes = [
     loadChildren: () => import('./pages/sai-baba-aarti/sai-baba-aarti.module').then( m => m.SaiBabaAartiPageModule)
   },
   {
+    path: 'renuka-aarti-1',
+    loadChildren: () => import('./pages/renuka-aarti-1/renuka-aarti-1.module').then( m => m.RenukaAarti1PageModule)
+  },
+  {
+    path: 'renuka-aarti-2',
+    loadChildren: () => import('./pages/renuka-aarti-2/renuka-aarti-2.module').then( m => m.RenukaAarti2PageModule)
+  },
+  {
+    path: 'renuka-aarti-3',
+    loadChildren: () => import('./pages/renuka-aarti-3/renuka-aarti-3.module').then( m => m.RenukaAarti3PageModule)
+  },
+  {
     path: 'renuka-ashtak-1',
     loadChildren: () => import('./pages/renuka-ashtak-1/renuka-ashtak-1.module').then( m => m.RenukaAshtak1PageModule)
   },
@@ -74,18 +82,6 @@ const routes: Routes = [
   {
     path: 'renuka-pada',
     loadChildren: () => import('./pages/renuka-pada/renuka-pada.module').then( m => m.RenukaPadaPageModule)
-  },
-  {
-    path: 'renuka-aarti-1',
-    loadChildren: () => import('./pages/renuka-aarti-1/renuka-aarti-1.module').then( m => m.RenukaAarti1PageModule)
-  },
-  {
-    path: 'renuka-aarti-2',
-    loadChildren: () => import('./pages/renuka-aarti-2/renuka-aarti-2.module').then( m => m.RenukaAarti2PageModule)
-  },
-  {
-    path: 'renuka-aarti-3',
-    loadChildren: () => import('./pages/renuka-aarti-3/renuka-aarti-3.module').then( m => m.RenukaAarti3PageModule)
   },
   {
     path: 'renuka-prarthana',
