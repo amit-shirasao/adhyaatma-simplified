@@ -27,7 +27,7 @@ export class PageService {
     { title: 'Sada Sarvada Morya Sharada Hi', pageId: 'renuka-ashtak-3', icon: 'renuka' },
     { title: 'Majhi Renuka Mauli', pageId: 'renuka-abhanga', icon: 'renuka' },
     { title: 'Mahur Gadhavari Ga', pageId: 'renuka-jogava', icon: 'renuka' },
-    { title: 'Aamhi Chuklo Jari Tari Kaahi', pageId: 'renuka-pad', icon: 'renuka' },
+    { title: 'Aamhi Chuklo Jari Tari Kaahi', pageId: 'renuka-pada', icon: 'renuka' },
     { title: 'Durge Durghat Bhari', pageId: 'renuka-aarti-1', icon: 'renuka' },
     { title: 'Hi Aadimaaya Jagadamba', pageId: 'renuka-aarti-2', icon: 'renuka' },
     { title: 'Jay Jay Bhavani', pageId: 'renuka-aarti-3', icon: 'renuka' },
