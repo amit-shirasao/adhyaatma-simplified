@@ -7,10 +7,10 @@ const routes: Routes = [
     redirectTo: 'ganapati-aarti',
     pathMatch: 'full'
   },
-  {
-    path: ':pageId',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  },
+  // {
+  //   path: ':pageId',
+  //   loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  // },
   {
     path: 'ganapati-aarti',
     loadChildren: () => import('./pages/ganapati-aarti/ganapati-aarti.module').then( m => m.GanapatiAartiPageModule)

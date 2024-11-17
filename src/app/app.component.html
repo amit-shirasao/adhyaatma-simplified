@@ -1,17 +1,54 @@
-<ion-app>
-  <ion-split-pane contentId="main-content">
-    <ion-menu contentId="main-content" type="overlay">
-      <ion-content>
-        <ion-list id="inbox-list">
-          <ion-menu-toggle auto-hide="false" *ngFor="let page of pages; let i = index">
-            <ion-item routerDirection="root" [routerLink]="'/'+[page.pageId]" lines="none" detail="false" routerLinkActive="selected">
-              <ion-img [src]="'../assets/icon/godly-icons/' + [page.icon] + '.png'"></ion-img>
-              <ion-label>{{ page.title }}</ion-label>
-            </ion-item>
-          </ion-menu-toggle>
-        </ion-list>
-      </ion-content>
-    </ion-menu>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
-</ion-app>
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Select:</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list (click)="closeTheMenu()">
+      <ion-card>
+        <ion-item routerLink="ganapati-aarti">
+          <ion-img class="icon-sized-image" src="../assets/icon/godly-icons/ganapati.png"></ion-img>
+          <ion-title>गणपती आरती</ion-title>
+        </ion-item>
+        <ion-item routerLink="ganapati-stotra">
+          <ion-img class="icon-sized-image" src="../assets/icon/godly-icons/ganapati.png"></ion-img>
+          <ion-title>गणपती स्तोत्र</ion-title>
+        </ion-item>
+        <ion-item routerLink="ganapati-atharvasheersha">
+          <ion-img class="icon-sized-image" src="../assets/icon/godly-icons/ganapati.png"></ion-img>
+          <ion-title>गणपती अथर्वशीर्ष</ion-title>
+        </ion-item>
+      </ion-card>
+
+      <ion-item routerLink="guru-dhawa">Guru Dhawa</ion-item>
+      <ion-item routerLink="mahalaxmi-aarti">Mahalaxmi Aarti</ion-item>
+      <ion-item routerLink="ram-dhawa">Ram Dhawa</ion-item>
+      <ion-item routerLink="renuka-aarti-1">Renuka Aarti: Durge Durghat Bhari</ion-item>
+      <ion-item routerLink="renuka-aarti-2">Renuka Aarti: </ion-item>
+      <ion-item routerLink="renuka-aarti-3">Renuka Aarti: </ion-item>
+      <ion-item routerLink="renuka-abhanga">Renuka Abhanga</ion-item>
+      <ion-item routerLink="renuka-ashtak-1">Renuka Ashtak: </ion-item>
+      <ion-item routerLink="renuka-ashtak-2">Renuka Ashtak: </ion-item>
+      <ion-item routerLink="renuka-ashtak-3">Renuka Ashtak: </ion-item>
+      <ion-item routerLink="renuka-jogava">Renuka Jogava</ion-item>
+      <ion-item routerLink="renuka-pada">Renuka Pada</ion-item>
+      <ion-item routerLink="renuka-prarthana">Renuka Prarthana</ion-item>
+      <ion-item routerLink="sai-baba-aarti">Sai Baba Aarti</ion-item>
+      <ion-item routerLink="shankar-aarti">Shankar Aarti</ion-item>
+      <ion-item routerLink="vishnu-aarti">Vishnu Aarti</ion-item>
+      <ion-item routerLink="vitthal-aarti">Vitthal Aarti</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button auto-hide="true"></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Adhyaatma</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content> <ion-router-outlet></ion-router-outlet> </ion-content>
+</div>

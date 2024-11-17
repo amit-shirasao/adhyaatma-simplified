@@ -6,9 +6,9 @@ import { Injectable } from '@angular/core';
 export class PageService {
 
   private pages = [
-    { title: 'Sukhakarta Dukhaharta', pageId: 'ganapati-aarti', icon: 'ganapati' },
-    { title: 'Sashtanga Naman He Majhe', pageId: 'ganapati-stotra', icon: 'ganapati' },
-    { title: 'Om Namaste Ganapataye', pageId: 'ganapati-atharvasheersha', icon: 'ganapati' },
+    // { title: 'Sukhakarta Dukhaharta', pageId: 'ganapati-aarti', icon: 'ganapati' },
+    // { title: 'Sashtanga Naman He Majhe', pageId: 'ganapati-stotra', icon: 'ganapati' },
+    // { title: 'Om Namaste Ganapataye', pageId: 'ganapati-atharvasheersha', icon: 'ganapati' },
 
     { title: 'Jay Jay Sacchit Swarupa', pageId: 'gajanan-maharaj-aarti-1', icon: 'gajanan-maharaj' },
     { title: 'Shrimad Sadguru Swami', pageId: 'gajanan-maharaj-aarti-2', icon: 'gajanan-maharaj' },
