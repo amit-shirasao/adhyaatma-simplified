@@ -1,0 +1,17 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-menu-toggle auto-hide="false" *ngFor="let page of pages; let i = index">
+            <ion-item routerDirection="root" [routerLink]="'/'+[page.pageId]" lines="none" detail="false" routerLinkActive="selected">
+              <ion-img [src]="'../assets/icon/godly-icons/' + [page.icon] + '.png'"></ion-img>
+              <ion-label>{{ page.title }}</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
