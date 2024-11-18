@@ -98,7 +98,11 @@ const routes: Routes = [
   {
     path: 'ram-dhawa',
     loadChildren: () => import('./pages/ram-dhawa/ram-dhawa.module').then( m => m.RamDhawaPageModule)
+  },  {
+    path: 'durga-aarti',
+    loadChildren: () => import('./pages/durga-aarti/durga-aarti.module').then( m => m.DurgaAartiPageModule)
   }
+
 ];
 
 @NgModule({
