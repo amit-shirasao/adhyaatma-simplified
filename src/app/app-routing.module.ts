@@ -98,9 +98,94 @@ const routes: Routes = [
   {
     path: 'ram-dhawa',
     loadChildren: () => import('./pages/ram-dhawa/ram-dhawa.module').then( m => m.RamDhawaPageModule)
-  },  {
+  },
+  {
     path: 'durga-aarti',
     loadChildren: () => import('./pages/durga-aarti/durga-aarti.module').then( m => m.DurgaAartiPageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-1',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-1/adhyaay-1.module').then( m => m.Adhyaay1PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-2',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-2/adhyaay-2.module').then( m => m.Adhyaay2PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-3',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-3/adhyaay-3.module').then( m => m.Adhyaay3PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-4',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-4/adhyaay-4.module').then( m => m.Adhyaay4PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-5',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-5/adhyaay-5.module').then( m => m.Adhyaay5PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-6',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-6/adhyaay-6.module').then( m => m.Adhyaay6PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-7',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-7/adhyaay-7.module').then( m => m.Adhyaay7PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-8',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-8/adhyaay-8.module').then( m => m.Adhyaay8PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-9',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-9/adhyaay-9.module').then( m => m.Adhyaay9PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-10',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-10/adhyaay-10.module').then( m => m.Adhyaay10PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-11',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-11/adhyaay-11.module').then( m => m.Adhyaay11PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-12',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-12/adhyaay-12.module').then( m => m.Adhyaay12PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-13',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-13/adhyaay-13.module').then( m => m.Adhyaay13PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-14',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-14/adhyaay-14.module').then( m => m.Adhyaay14PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-15',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-15/adhyaay-15.module').then( m => m.Adhyaay15PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-16',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-16/adhyaay-16.module').then( m => m.Adhyaay16PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-17',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-17/adhyaay-17.module').then( m => m.Adhyaay17PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-18',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-18/adhyaay-18.module').then( m => m.Adhyaay18PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-19',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-19/adhyaay-19.module').then( m => m.Adhyaay19PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-20',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-20/adhyaay-20.module').then( m => m.Adhyaay20PageModule)
+  },
+  {
+    path: 'gajanan-vijay-grantha-adhyaay-21',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-21/adhyaay-21.module').then( m => m.Adhyaay21PageModule)
   }
 
 ];
