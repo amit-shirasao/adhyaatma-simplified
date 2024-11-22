@@ -186,7 +186,11 @@ const routes: Routes = [
   {
     path: 'gajanan-vijay-grantha-adhyaay-21',
     loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-21/adhyaay-21.module').then( m => m.Adhyaay21PageModule)
+  },  {
+    path: 'ram-raksha',
+    loadChildren: () => import('./pages/ram-raksha/ram-raksha.module').then( m => m.RamRakshaPageModule)
   }
+
 
 ];
 
