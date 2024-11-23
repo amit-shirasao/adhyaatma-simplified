@@ -186,9 +186,94 @@ const routes: Routes = [
   {
     path: 'gajanan-vijay-grantha-adhyaay-21',
     loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-21/adhyaay-21.module').then( m => m.Adhyaay21PageModule)
-  },  {
+  },
+  {
     path: 'ram-raksha',
     loadChildren: () => import('./pages/ram-raksha/ram-raksha.module').then( m => m.RamRakshaPageModule)
+  },
+  {
+    path: 'from-001-to-010',
+    loadChildren: () => import('./pages/manache-shlok/from-001-to-010/from-001-to-010.module').then( m => m.From001To010PageModule)
+  },
+  {
+    path: 'from-011-to-020',
+    loadChildren: () => import('./pages/manache-shlok/from-011-to-020/from-011-to-020.module').then( m => m.From011To020PageModule)
+  },
+  {
+    path: 'from-021-to-030',
+    loadChildren: () => import('./pages/manache-shlok/from-021-to-030/from-021-to-030.module').then( m => m.From021To030PageModule)
+  },
+  {
+    path: 'from-031-to-040',
+    loadChildren: () => import('./pages/manache-shlok/from-031-to-040/from-031-to-040.module').then( m => m.From031To040PageModule)
+  },
+  {
+    path: 'from-041-to-050',
+    loadChildren: () => import('./pages/manache-shlok/from-041-to-050/from-041-to-050.module').then( m => m.From041To050PageModule)
+  },
+  {
+    path: 'from-051-to-060',
+    loadChildren: () => import('./pages/manache-shlok/from-051-to-060/from-051-to-060.module').then( m => m.From051To060PageModule)
+  },
+  {
+    path: 'from-061-to-070',
+    loadChildren: () => import('./pages/manache-shlok/from-061-to-070/from-061-to-070.module').then( m => m.From061To070PageModule)
+  },
+  {
+    path: 'from-071-to-080',
+    loadChildren: () => import('./pages/manache-shlok/from-071-to-080/from-071-to-080.module').then( m => m.From071To080PageModule)
+  },
+  {
+    path: 'from-081-to-090',
+    loadChildren: () => import('./pages/manache-shlok/from-081-to-090/from-081-to-090.module').then( m => m.From081To090PageModule)
+  },
+  {
+    path: 'from-091-to-100',
+    loadChildren: () => import('./pages/manache-shlok/from-091-to-100/from-091-to-100.module').then( m => m.From091To100PageModule)
+  },
+  {
+    path: 'from-101-to-110',
+    loadChildren: () => import('./pages/manache-shlok/from-101-to-110/from-101-to-110.module').then( m => m.From101To110PageModule)
+  },
+  {
+    path: 'from-111-to-120',
+    loadChildren: () => import('./pages/manache-shlok/from-111-to-120/from-111-to-120.module').then( m => m.From111To120PageModule)
+  },
+  {
+    path: 'from-121-to-130',
+    loadChildren: () => import('./pages/manache-shlok/from-121-to-130/from-121-to-130.module').then( m => m.From121To130PageModule)
+  },
+  {
+    path: 'from-131-to-140',
+    loadChildren: () => import('./pages/manache-shlok/from-131-to-140/from-131-to-140.module').then( m => m.From131To140PageModule)
+  },
+  {
+    path: 'from-141-to-150',
+    loadChildren: () => import('./pages/manache-shlok/from-141-to-150/from-141-to-150.module').then( m => m.From141To150PageModule)
+  },
+  {
+    path: 'from-151-to-160',
+    loadChildren: () => import('./pages/manache-shlok/from-151-to-160/from-151-to-160.module').then( m => m.From151To160PageModule)
+  },
+  {
+    path: 'from-161-to-170',
+    loadChildren: () => import('./pages/manache-shlok/from-161-to-170/from-161-to-170.module').then( m => m.From161To170PageModule)
+  },
+  {
+    path: 'from-171-to-180',
+    loadChildren: () => import('./pages/manache-shlok/from-171-to-180/from-171-to-180.module').then( m => m.From171To180PageModule)
+  },
+  {
+    path: 'from-181-to-190',
+    loadChildren: () => import('./pages/manache-shlok/from-181-to-190/from-181-to-190.module').then( m => m.From181To190PageModule)
+  },
+  {
+    path: 'from-191-to-200',
+    loadChildren: () => import('./pages/manache-shlok/from-191-to-200/from-191-to-200.module').then( m => m.From191To200PageModule)
+  },
+  {
+    path: 'from-201-to-205',
+    loadChildren: () => import('./pages/manache-shlok/from-201-to-205/from-201-to-205.module').then( m => m.From201To205PageModule)
   }
 
 
