@@ -274,7 +274,11 @@ const routes: Routes = [
   {
     path: 'manache-shlok-from-201-to-205',
     loadChildren: () => import('./pages/manache-shlok/from-201-to-205/from-201-to-205.module').then(m => m.From201To205PageModule)
+  },  {
+    path: 'hanuman-chalisa',
+    loadChildren: () => import('./pages/hanuman-chalisa/hanuman-chalisa.module').then( m => m.HanumanChalisaPageModule)
   }
+
 ];
 
 @NgModule({
