@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: 'ganapati-aarti',
-  //   pathMatch: 'full'
-  // },
   {
     path: '',
+    redirectTo: '',
+    pathMatch: 'full'
+  },
+  {
+    path: '',
+    loadChildren: () => import('./pages/landing-page/landing-page.module').then( m => m.LandingPagePageModule)
+  },
+  {
+    path: 'ganapati-aarti',
     loadChildren: () => import('./pages/ganapati-aarti/ganapati-aarti.module').then(m => m.GanapatiAartiPageModule)
   },
   {
@@ -274,11 +278,11 @@ const routes: Routes = [
   {
     path: 'manache-shlok-from-201-to-205',
     loadChildren: () => import('./pages/manache-shlok/from-201-to-205/from-201-to-205.module').then(m => m.From201To205PageModule)
-  },  {
+  },
+  {
     path: 'hanuman-chalisa',
     loadChildren: () => import('./pages/hanuman-chalisa/hanuman-chalisa.module').then( m => m.HanumanChalisaPageModule)
   }
-
 ];
 
 @NgModule({
