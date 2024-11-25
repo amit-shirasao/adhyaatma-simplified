@@ -108,6 +108,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/durga-aarti/durga-aarti.module').then(m => m.DurgaAartiPageModule)
   },
   {
+    path: 'gajanan-vijay-grantha',
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-selection/adhyaay-selection.module').then( m => m.AdhyaaySelectionPageModule)
+  },
+  {
     path: 'gajanan-vijay-grantha-adhyaay-1',
     loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-1/adhyaay-1.module').then(m => m.Adhyaay1PageModule)
   },
@@ -194,6 +198,10 @@ const routes: Routes = [
   {
     path: 'ram-raksha',
     loadChildren: () => import('./pages/ram-raksha/ram-raksha.module').then(m => m.RamRakshaPageModule)
+  },
+  {
+    path: 'manache-shlok-shlok-selection',
+    loadChildren: () => import('./pages/manache-shlok/shlok-selection/shlok-selection.module').then( m => m.ShlokSelectionPageModule)
   },
   {
     path: 'manache-shlok-from-001-to-010',
