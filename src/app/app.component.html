@@ -31,7 +31,7 @@
         <ion-title>गजानन आरती २</ion-title>
       </ion-item>
 
-      <ion-item routerLink="gajanan-vijay-grantha">
+      <ion-item routerLink="gajanan-vijay-grantha-adhyaay-selection">
         <ion-img class="icon-sized-image" src="../assets/icon/godly-icons/gajanan-maharaj.png"></ion-img>
         <ion-title>विजय ग्रंथ</ion-title>
       </ion-item>
@@ -160,5 +160,7 @@
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-  <ion-content><ion-router-outlet></ion-router-outlet></ion-content>
+  <ion-content>
+    <div #dynamicContent></div>
+  </ion-content>
 </div>
