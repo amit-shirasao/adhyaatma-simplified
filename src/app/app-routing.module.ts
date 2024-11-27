@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    loadChildren: () => import('./pages/landing-page/landing-page.module').then( m => m.LandingPagePageModule)
+    loadChildren: () => import('./pages/landing-page/landing-page.module').then(m => m.LandingPagePageModule)
   },
   {
     path: 'ganapati-aarti',
@@ -109,7 +109,7 @@ const routes: Routes = [
   },
   {
     path: 'gajanan-vijay-grantha',
-    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-selection/adhyaay-selection.module').then( m => m.AdhyaaySelectionPageModule)
+    loadChildren: () => import('./pages/gajanan-vijay-grantha/adhyaay-selection/adhyaay-selection.module').then(m => m.AdhyaaySelectionPageModule)
   },
   {
     path: 'gajanan-vijay-grantha-adhyaay-1',
@@ -201,7 +201,7 @@ const routes: Routes = [
   },
   {
     path: 'manache-shlok-shlok-selection',
-    loadChildren: () => import('./pages/manache-shlok/shlok-selection/shlok-selection.module').then( m => m.ShlokSelectionPageModule)
+    loadChildren: () => import('./pages/manache-shlok/shlok-selection/shlok-selection.module').then(m => m.ShlokSelectionPageModule)
   },
   {
     path: 'manache-shlok-from-001-to-010',
@@ -289,8 +289,9 @@ const routes: Routes = [
   },
   {
     path: 'hanuman-chalisa',
-    loadChildren: () => import('./pages/hanuman-chalisa/hanuman-chalisa.module').then( m => m.HanumanChalisaPageModule)
-  }
+    loadChildren: () => import('./pages/hanuman-chalisa/hanuman-chalisa.module').then(m => m.HanumanChalisaPageModule)
+  },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
