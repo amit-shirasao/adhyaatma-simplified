@@ -155,6 +155,9 @@
         <ion-menu-button auto-hide="true"></ion-menu-button>
       </ion-buttons>
       <ion-title routerLink="" class="all-pages-title">अध्यात्म</ion-title>
+      <ion-buttons slot="end">
+        <ion-icon (click)="share()" name="share-social-outline" class="share-button"></ion-icon>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
   <ion-content> <ion-router-outlet></ion-router-outlet> </ion-content>
